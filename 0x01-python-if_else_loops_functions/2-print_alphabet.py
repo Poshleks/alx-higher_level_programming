@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-str = "Holberton School"
-
-print("{}".format(str) * 3)
-
-print(str[:9])
+for i in range(97, 123):
+    print("{:c}".format(i), end="")
