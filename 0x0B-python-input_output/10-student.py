@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# 10-student.py
 """Defines a class Student."""
 
 
@@ -28,4 +27,3 @@ class Student:
                 all(type(ele) == str for ele in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
         return self.__dict__
-
